@@ -1,0 +1,396 @@
+{ 
+  "stars" :[
+  {
+    "id": 1,
+    "name": "Альферац",
+    "constellation": "Андромеда",
+    "is_visible": true,
+    "radius": "2,8"
+  },
+  {
+    "id": 2,
+    "name": "Кастор",
+    "constellation": "Близнецы",
+    "is_visible": true,
+    "radius": "2,31"
+  },
+  {
+    "id": 3,
+    "name": "Дубхе",
+    "constellation": "Большая медведица",
+    "is_visible": true,
+    "radius": "30"
+  },
+  {
+    "id": 4,
+    "name": "Сириус",
+    "constellation": "Большой Пёс",
+    "is_visible": true,
+    "radius": "1,7"
+  },
+  {
+    "id": 5,
+    "name": "Зубен Эльгенуби",
+    "constellation": "Весы",
+    "is_visible": true,
+    "radius": "1,1"
+  },
+  {
+    "id": 6,
+    "name": "Садальмелик",
+    "constellation": "Водолей",
+    "is_visible": true,
+    "radius": "60"
+  },
+  {
+    "id": 7,
+    "name": "Капелла",
+    "constellation": "Возничий",
+    "is_visible": true,
+    "radius": "12,2"
+  },
+  {
+    "id": 8,
+    "name": "Арктур",
+    "constellation": "Волопас",
+    "is_visible": true,
+    "radius": "25,4"
+  },
+  {
+    "id": 9,
+    "name": "Диадема",
+    "constellation": "Волосы Вероники",
+    "is_visible": true,
+    "radius": "1,4"
+  },
+  {
+    "id": 10,
+    "name": "Альхиба",
+    "constellation": "Ворон",
+    "is_visible": true,
+    "radius": "1,46"
+  },
+  {
+    "id": 11,
+    "name": "Рас Альгети",
+    "constellation": "Геркулес",
+    "is_visible": true,
+    "radius": "9,64"
+  },
+  {
+    "id": 12,
+    "name": "Альфард",
+    "constellation": "Гидра",
+    "is_visible": true,
+    "radius": "42,4"
+  },
+  {
+    "id": 13,
+    "name": "Факт",
+    "constellation": "Голубь",
+    "is_visible": true,
+    "radius": "5,8"
+  },
+  {
+    "id": 14,
+    "name": "Астерион",
+    "constellation": "Гончие Псы",
+    "is_visible": true,
+    "radius": "2,97"
+  },
+  {
+    "id": 15,
+    "name": "Спика",
+    "constellation": "Дева",
+    "is_visible": true,
+    "radius": "7,4"
+  },
+  {
+    "id": 16,
+    "name": "Ротанев",
+    "constellation": "Дельфин",
+    "is_visible": true,
+    "radius": "4,09"
+  },
+  {
+    "id": 17,
+    "name": "Тубан",
+    "constellation": "Дракон",
+    "is_visible": true,
+    "radius": "6,75"
+  },
+  {
+    "id": 18,
+    "name": "Альнаир",
+    "constellation": "Журавль",
+    "is_visible": true,
+    "radius": "3,6"
+  },
+  {
+    "id": 19,
+    "name": "Арнеб",
+    "constellation": "Заяц",
+    "is_visible": true,
+    "radius": "77"
+  },
+  {
+    "id": 20,
+    "name": "Рас Альхаге",
+    "constellation": "Змееносец",
+    "is_visible": true,
+    "radius": "2,6"
+  },
+  {
+    "id": 21,
+    "name": "Унук Эльхайя",
+    "constellation": "Змея",
+    "is_visible": true,
+    "radius": "12"
+  },
+  {
+    "id": 22,
+    "name": "Шедар",
+    "constellation": "Кассиопея",
+    "is_visible": true,
+    "radius": "37"
+  },
+  {
+    "id": 23,
+    "name": "Канопус",
+    "constellation": "Киль",
+    "is_visible": true,
+    "radius": "65"
+  },
+  {
+    "id": 24,
+    "name": "Менкар",
+    "constellation": "Кит",
+    "is_visible": true,
+    "radius": "89"
+  },
+  {
+    "id": 25,
+    "name": "Альджеди",
+    "constellation": "Козерог",
+    "is_visible": true,
+    "radius": "8"
+  },
+  {
+    "id": 26,
+    "name": "Наос",
+    "constellation": "Корма",
+    "is_visible": true,
+    "radius": "11"
+  },
+  {
+    "id": 27,
+    "name": "Денеб",
+    "constellation": "Лебедь",
+    "is_visible": true,
+    "radius": "210"
+  },
+  {
+    "id": 28,
+    "name": "Регул",
+    "constellation": "Лев",
+    "is_visible": true,
+    "radius": "3,15"
+  },
+  {
+    "id": 29,
+    "name": "Вега",
+    "constellation": "Лира",
+    "is_visible": true,
+    "radius": "2,82"
+  },
+  {
+    "id": 30,
+    "name": "Полярная",
+    "constellation": "Малая Медведица",
+    "is_visible": true,
+    "radius": "47"
+  },
+  {
+    "id": 31,
+    "name": "Китальфа",
+    "constellation": "Малый Конь",
+    "is_visible": true,
+    "radius": "9,2"
+  },
+  {
+    "id": 32,
+    "name": "Процион",
+    "constellation": "Малый Пёс",
+    "is_visible": true,
+    "radius": "1,86"
+  },
+  {
+    "id": 33,
+    "name": "Хамаль",
+    "constellation": "Овен",
+    "is_visible": true,
+    "radius": "15"
+  },
+  {
+    "id": 34,
+    "name": "Альтаир",
+    "constellation": "Орёл",
+    "is_visible": true,
+    "radius": "1,7"
+  },
+  {
+    "id": 35,
+    "name": "Бетельгейзе",
+    "constellation": "Орион",
+    "is_visible": true,
+    "radius": "764"
+  },
+  {
+    "id": 36,
+    "name": "Пеакок",
+    "constellation": "Павлин",
+    "is_visible": true,
+    "radius": "4,4"
+  },
+  {
+    "id": 37,
+    "name": "Сухайль",
+    "constellation": "Паруса",
+    "is_visible": true,
+    "radius": "210"
+  },
+  {
+    "id": 38,
+    "name": "Маркаб",
+    "constellation": "Пегас",
+    "is_visible": true,
+    "radius": "2,8"
+  },
+  {
+    "id": 39,
+    "name": "Мирфак",
+    "constellation": "Персей",
+    "is_visible": true,
+    "radius": "56"
+  },
+  {
+    "id": 40,
+    "name": "Акубенс",
+    "constellation": "Рак",
+    "is_visible": true,
+    "radius": "0,99"
+  },
+  {
+    "id": 41,
+    "name": "Альриша",
+    "constellation": "Рыбы",
+    "is_visible": true,
+    "radius": "2,05"
+  },
+  {
+    "id": 42,
+    "name": "Гемма",
+    "constellation": "Северная Корона",
+    "is_visible": true,
+    "radius": "2,7"
+  },
+  {
+    "id": 43,
+    "name": "Антарес",
+    "constellation": "Скорпион",
+    "is_visible": true,
+    "radius": "400"
+  },
+  {
+    "id": 44,
+    "name": "Шам",
+    "constellation": "Стрела",
+    "is_visible": true,
+    "radius": "20"
+  },
+  {
+    "id": 45,
+    "name": "Рукбат",
+    "constellation": "Стрелец",
+    "is_visible": true,
+    "radius": "2,49"
+  },
+  {
+    "id": 46,
+    "name": "Альдебаран",
+    "constellation": "Телец",
+    "is_visible": true,
+    "radius": "44"
+  },
+  {
+    "id": 47,
+    "name": "Металлах",
+    "constellation": "Треугольник",
+    "is_visible": true,
+    "radius": "3,22"
+  },
+  {
+    "id": 48,
+    "name": "Анкаа",
+    "constellation": "Феникс",
+    "is_visible": true,
+    "radius": "15"
+  },
+  {
+    "id": 49,
+    "name": "Альфа Центавра",
+    "constellation": "Центавр",
+    "is_visible": true,
+    "radius": "1,23"
+  },
+  {
+    "id": 50,
+    "name": "Альдерамин",
+    "constellation": "Цефей",
+    "is_visible": true,
+    "radius": "2,5"
+  },
+  {
+    "id": 51,
+    "name": "Алькес",
+    "constellation": "Чаша",
+    "is_visible": true,
+    "radius": "13"
+  },
+  {
+    "id": 52,
+    "name": "Ахернар",
+    "constellation": "Эридан",
+    "is_visible": true,
+    "radius": "6,7"
+  },
+  {
+    "id": 53,
+    "name": "Акрукс",
+    "constellation": "Южный Крест",
+    "is_visible": true,
+    "radius": "4,76"
+  },
+  {
+    "id": 54,
+    "name": "Атрия",
+    "constellation": "Южный треугольник",
+    "is_visible": true,
+    "radius": "92,2"
+  },
+  {
+    "id": 55,
+    "name": "Фомальгаут",
+    "constellation": "Южная Рыба",
+    "is_visible": true,
+    "radius": "1,85"
+  },
+  {
+    "id": 56,
+    "name": "Каф",
+    "constellation": "Кассиопея",
+    "is_": true,
+    "radius": "6,8"
+  }
+]
+}
