@@ -1,5 +1,4 @@
-{ 
-  "stars" :[
+[
   {
     "id": 1,
     "name": "Альферац",
@@ -384,13 +383,5 @@
     "constellation": "Южная Рыба",
     "is_visible": true,
     "radius": "1,85"
-  },
-  {
-    "id": 56,
-    "name": "Каф",
-    "constellation": "Кассиопея",
-    "is_": true,
-    "radius": "6,8"
   }
 ]
-}
