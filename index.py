@@ -10,6 +10,7 @@ def showMenu():
     5. Выйти из программы. """) 
     return menu 
 
+#Создание функции подсчета количества операций
 def operationCount(count):
     return count + 1
 
@@ -100,38 +101,43 @@ def deleteStar(data):
 #Создание функции для выхода из программы
 def exitTheProgram():
     print()  
-    print(f"Выход из программы. Кол-во операций: {count}")  
-    print()
+    print("Выход из программы.")
 
-with open("stars.json", 'r', encoding='utf-8') as file: 
-    data = json.load(file) 
+def main():
 
-    count = 0
+    with open("stars.json", 'r', encoding='utf-8') as file: 
+        data = json.load(file) 
 
-    while True: 
-        print(showMenu())
+        count = 0
 
-        num = int(input("Введите номер пункта который хотите выполнить: ")) 
+        while True: 
 
-        if num == 1:
-            showStarsInfo(data)
-            count = operationCount(count)
+            print(showMenu())
 
-        elif num == 2:
-            findStarById(data)
-            count = operationCount(count)
+            num = int(input("Введите номер пункта который хотите выполнить: ")) 
 
-        elif num == 3:
-            addNewStar(data)
-            count = operationCount(count)
-        
-        elif num == 4:
-            deleteStar(data)
-            count = operationCount(count)
+            if num >=1 and num <=4:
+                count = operationCount(count)
 
-        elif num == 5:
-            exitTheProgram()
-            break
+            if num == 1:
+                showStarsInfo(data)
 
-        else:
-            print("Ввведено неверное число.")
+            elif num == 2:
+                findStarById(data)
+
+            elif num == 3:
+                addNewStar(data)
+            
+            elif num == 4:
+                deleteStar(data)
+
+            elif num == 5:
+                exitTheProgram()
+                print(f"Кол-во операций: {count}\n")
+                break
+
+            else:
+                print("Ввведено неверное число.")
+
+if __name__ == "__main__":
+    main()
