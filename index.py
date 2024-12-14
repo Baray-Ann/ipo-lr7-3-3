@@ -79,8 +79,6 @@ def addNewStar(data):
     }  
   
     data.append(new_star)  
-    with open("stars.json", 'w', encoding='utf-8') as out_file: 
-        json.dump(data, out_file, ensure_ascii = False, indent = 2)
 
 #Создание функции для удаления звезды
 def deleteStar(data):
@@ -91,9 +89,8 @@ def deleteStar(data):
         if delete_id == sought_for_id: 
             find = True 
             data.remove(star) 
-            with open("stars.json", "w",encoding="utf-8") as new_file:
-                json.dump(data, new_file, ensure_ascii = False, indent = 4) 
-                break 
+            break 
+
     if not find: 
         print() 
         print("Запись не найдена.")
@@ -138,6 +135,9 @@ def main():
 
             else:
                 print("Ввведено неверное число.")
+
+            with open("stars.json", 'w', encoding='utf-8') as out_file: 
+                json.dump(data, out_file, ensure_ascii = False, indent = 2)
 
 if __name__ == "__main__":
     main()
