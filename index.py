@@ -10,10 +10,6 @@ def showMenu():
     5. Выйти из программы. """) 
     return menu 
 
-#Создание функции подсчета количества операций
-def operationCount(count):
-    return count + 1
-
 #Создание функции для вывода информации о всех звездах 
 def showStarsInfo(data): 
     for star in data: 
@@ -114,7 +110,7 @@ def main():
             num = int(input("Введите номер пункта который хотите выполнить: ")) 
 
             if num >=1 and num <=4:
-                count = operationCount(count)
+                count += 1
 
             if num == 1:
                 showStarsInfo(data)
